@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة AR | التطبيق الحصري</title>
+    <style>
+        
+{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;}
+      body {
+          background-color: #05050a;
+          color: #ffffff;
+          min-height: 100vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          overflow-x: hidden;}.container {
+          text-align: center;
+          padding: 20px;
+          max-width: 600px;
+          width: 100%;}.logo-container {
+          position: relative;
+          width: 140px;
+          height: 140px;
+          margin: 0 auto 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;}.logo-container::before {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          border: 2px solid rgba(0, 122, 255, 0.4);
+          box-shadow: 0 0 25px rgba(0, 122, 255, 0.6);
+          animation: pulse 2.5s infinite;}@keyframes pulse {
+          0% { transform: scale(0.95); opacity: 0.6; }
+          50% { transform: scale(1.05); opacity: 1; box-shadow: 0 0 40px rgba(0, 122, 255, 0.9); }
+          100% { transform: scale(0.95); opacity: 0.6; }}.logo-img {
+          width: 120px;
+          height: 120px;
+          border-radius: 50%;
+          object-fit: cover;
+          border: 2px solid #007aff;}
+      h1 {
+          font-size: 28px;
+          margin-bottom: 10px;
+          letter-spacing: 1px;}
+      p {
+          color: #a0a0ba;
+          font-size: 15px;
+          margin-bottom: 30px;
+          line-height: 1.6;}.card {
+          background: rgba(15, 15, 25, 0.7);
+          border: 1px solid rgba(0, 122, 255, 0.2);
+          border-radius: 16px;
+          padding: 25px;
+          backdrop-filter: blur(10px);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);}.btn {
+          display: block;
+          width: 100%;
+          padding: 14px;
+          background: linear-gradient(135deg, #0051ff, #00c6ff);
+          color: #ffffff;
+          border: none;
+          border-radius: 10px;
+          font-size: 16px;
+          font-weight: bold;
+          cursor: pointer;
+          text-decoration: none;
+          box-shadow: 0 4px 15px rgba(0, 81, 255, 0.4);
+          transition: all 0.3s ease;}.btn:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 6px 20px rgba(0, 198, 255, 0.6);}</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- شعار AR المعدني الأزرق -->
+        <div class="logo-container">
+            <img src="logo.png" alt="AR Logo" class="logo-img">
+        </div>
+
+        <h1>منصة AR الرسمية</h1>
+        <p>احصل على تطبيق المشروع الأساسي واستمتع بالوصول الكامل لجميع التطبيقات المحقونة بداخلة بضغطة زر واحدة.</p>
+
+        <div class="card">
+            <!-- زر الدفع أو الاشتراك (يتم توجيهه لصفحة التحميل بعد إتمام الدفع) -->
+            <a href="download-page.html" class="btn">اشترك الآن / اطلب التطبيق</a>
+        </div>
+    </div>
+
+</body>
+</html>
